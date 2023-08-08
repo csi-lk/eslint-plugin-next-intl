@@ -1,0 +1,11 @@
+# Changelog
+
+## 1.0.0 (2023-08-08)
+
+
+### Features
+
+* add no dynamic translation key rule ([f44db64](https://github.com/csi-lk/eslint-plugin-next-intl/commit/f44db647261362dbbfc790b1f2a0ddeedc0775ea))
+* add prettier + config, typescript, jest, eslint types ([7cc9b6d](https://github.com/csi-lk/eslint-plugin-next-intl/commit/7cc9b6dee768c8e913434dcece4c0b0b9e7efbb3))
+* add readme, package.json and gitignore ([345b9aa](https://github.com/csi-lk/eslint-plugin-next-intl/commit/345b9aa0dc49aad3b8f248fb9c81af915645e54f))
+* **no-dynamic-translation-key:** finish rule with docs ([c3befa7](https://github.com/csi-lk/eslint-plugin-next-intl/commit/c3befa7cf26ba206ce13c88b277d2799decbd245))

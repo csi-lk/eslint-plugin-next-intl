@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.0.0...v1.1.0) (2023-09-22)
+
+
+### Features
+
+* add new rule use-next-intl-link-over-next-link ([0ec640d](https://github.com/csi-lk/eslint-plugin-next-intl/commit/0ec640d48f8ca136b3f9146a5e8deffa9c9a9b99))
+
 ## 1.0.0 (2023-08-08)
 
 

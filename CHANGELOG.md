@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.2.0...v1.2.1) (2023-09-25)
+
+
+### Bug Fixes
+
+* configs don't need to reference 'eslint-plugin', remove ([39da9a6](https://github.com/csi-lk/eslint-plugin-next-intl/commit/39da9a68b4e19a990923f5be3aee9006b97ecb7f))
+
 ## [1.2.0](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.1.0...v1.2.0) (2023-09-25)
 
 

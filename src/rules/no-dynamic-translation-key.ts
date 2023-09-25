@@ -27,7 +27,7 @@ const meta = {
 
 type CalleeName = { name?: string };
 
-const rule: Rule.RuleModule = {
+export const noDynamicTranslationKey: Rule.RuleModule = {
   meta,
   create: (context) => {
     const functionNames = context.options[0]?.functionNames ?? [];
@@ -64,5 +64,3 @@ const rule: Rule.RuleModule = {
     };
   },
 };
-
-export = rule;

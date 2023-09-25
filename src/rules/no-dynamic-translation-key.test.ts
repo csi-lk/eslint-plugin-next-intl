@@ -1,6 +1,6 @@
 import { RuleTester } from "eslint";
 
-import noDynamicTranslationKey from "./no-dynamic-translation-key";
+import { noDynamicTranslationKey } from "./no-dynamic-translation-key";
 
 const tester = new RuleTester({ parserOptions: { ecmaVersion: 2015 } });
 

@@ -1,9 +1,20 @@
-import noDynamicTranslationKey from "./rules/no-dynamic-translation-key";
-import useNextIntlLinkOverNextLink from "./rules/use-next-intl-link-over-next-link";
+import { noDynamicTranslationKey } from "./rules/no-dynamic-translation-key";
+import { useNextIntlLinkOverNextLink } from "./rules/use-next-intl-link-over-next-link";
+import { name, version } from "../package.json";
+import { configAll } from "./configs/all";
+import { configRecommended } from "./configs/recommended";
 
 export = {
+  meta: {
+    name,
+    version,
+  },
   rules: {
     "no-dynamic-translation-key": noDynamicTranslationKey,
     "use-next-intl-link-over-next-link": useNextIntlLinkOverNextLink,
+  },
+  configs: {
+    all: configAll,
+    recommended: configRecommended,
   },
 };

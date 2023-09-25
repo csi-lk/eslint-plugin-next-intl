@@ -1,6 +1,6 @@
 import { RuleTester } from "eslint";
 
-import useNextIntlLinkOverNextLink from "./use-next-intl-link-over-next-link";
+import { useNextIntlLinkOverNextLink } from "./use-next-intl-link-over-next-link";
 
 const tester = new RuleTester({
   parserOptions: { ecmaVersion: 2015, sourceType: "module" },

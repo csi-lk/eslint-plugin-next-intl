@@ -11,7 +11,7 @@ const meta: Rule.RuleMetaData = {
   fixable: "code",
 };
 
-const rule: Rule.RuleModule = {
+export const useNextIntlLinkOverNextLink: Rule.RuleModule = {
   meta,
   create: (context) => {
     return {
@@ -32,5 +32,3 @@ const rule: Rule.RuleModule = {
     };
   },
 };
-
-export = rule;

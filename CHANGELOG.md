@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.2.1...v1.3.0) (2023-09-25)
+
+
+### Features
+
+* add new rule use-router-from-next-intl as per the next-intl docs ([85e80f0](https://github.com/csi-lk/eslint-plugin-next-intl/commit/85e80f0ae76ba1705b4b76c647d6f7d2ebab46a1))
+
+
+### Bug Fixes
+
+* add use-router-from-next-intl to recommended and all ([80b7bc9](https://github.com/csi-lk/eslint-plugin-next-intl/commit/80b7bc9f76efd69fef371f92f1939ddab1e2e3f1))
+
 ## [1.2.1](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.2.0...v1.2.1) (2023-09-25)
 
 

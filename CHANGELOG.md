@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.1.0...v1.2.0) (2023-09-25)
+
+
+### Features
+
+* add configs, simplify layout, define name and version in meta ([887fd93](https://github.com/csi-lk/eslint-plugin-next-intl/commit/887fd9321dd27a32e88c2059c708c8da5888fef5))
+
 ## [1.1.0](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.0.0...v1.1.0) (2023-09-22)
 
 

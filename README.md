@@ -35,10 +35,11 @@ Lastly extend in your `eslintrc`
 ✅ Set in the `recommended` configuration.\
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                                                                 | Description                                                    | 💼   | 🔧 |
-| :----------------------------------------------------------------------------------- | :------------------------------------------------------------- | :--- | :- |
-| [no-dynamic-translation-key](docs/rules/no-dynamic-translation-key.md)               | Enforce using static strings as keys for translation functions | 🌐 ✅ |    |
-| [use-next-intl-link-over-next-link](docs/rules/use-next-intl-link-over-next-link.md) | Replace next/link imports with next-intl/link imports          | 🌐 ✅ | 🔧 |
+| Name                                                                                 | Description                                                          | 💼   | 🔧 |
+| :----------------------------------------------------------------------------------- | :------------------------------------------------------------------- | :--- | :- |
+| [no-dynamic-translation-key](docs/rules/no-dynamic-translation-key.md)               | Enforce using static strings as keys for translation functions       | 🌐 ✅ |    |
+| [use-next-intl-link-over-next-link](docs/rules/use-next-intl-link-over-next-link.md) | Replace next/link imports with next-intl/link imports                | 🌐 ✅ | 🔧 |
+| [use-router-from-next-intl](docs/rules/use-router-from-next-intl.md)                 | Use `useRouter` from `next-intl/client` instead of `next/navigation` |      | 🔧 |
 
 <!-- end auto-generated rules list -->
 

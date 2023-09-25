@@ -18,16 +18,27 @@ npm install eslint-plugin-next-intl --save-dev
 
 _Note: If you installed ESLint globally (using the -g flag) then you must also install `eslint-plugin-next-intl` globally._
 
+Lastly extend in your `eslintrc`
+
+```json
+{
+  "extends": ["plugin:next-intl/recommended"]
+}
+```
+
 ## Supported Rules
 
 <!-- begin auto-generated rules list -->
 
+💼 Configurations enabled in.\
+🌐 Set in the `all` configuration.\
+✅ Set in the `recommended` configuration.\
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                                                                 | Description                                                    | 🔧 |
-| :----------------------------------------------------------------------------------- | :------------------------------------------------------------- | :- |
-| [no-dynamic-translation-key](docs/rules/no-dynamic-translation-key.md)               | Enforce using static strings as keys for translation functions |    |
-| [use-next-intl-link-over-next-link](docs/rules/use-next-intl-link-over-next-link.md) | Replace next/link imports with next-intl/link imports          | 🔧 |
+| Name                                                                                 | Description                                                    | 💼   | 🔧 |
+| :----------------------------------------------------------------------------------- | :------------------------------------------------------------- | :--- | :- |
+| [no-dynamic-translation-key](docs/rules/no-dynamic-translation-key.md)               | Enforce using static strings as keys for translation functions | 🌐 ✅ |    |
+| [use-next-intl-link-over-next-link](docs/rules/use-next-intl-link-over-next-link.md) | Replace next/link imports with next-intl/link imports          | 🌐 ✅ | 🔧 |
 
 <!-- end auto-generated rules list -->
 

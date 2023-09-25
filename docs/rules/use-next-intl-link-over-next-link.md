@@ -1,5 +1,7 @@
 # Replace next/link imports with next-intl/link imports (`next-intl/use-next-intl-link-over-next-link`)
 
+💼 This rule is enabled in the following configs: 🌐 `all`, ✅ `recommended`.
+
 🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
 <!-- end auto-generated rule header -->

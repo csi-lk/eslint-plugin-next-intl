@@ -1,5 +1,7 @@
 # Enforce using static strings as keys for translation functions (`next-intl/no-dynamic-translation-key`)
 
+💼 This rule is enabled in the following configs: 🌐 `all`, ✅ `recommended`.
+
 <!-- end auto-generated rule header -->
 
 When using scripts to automatically abstract translation keys into translation files, it's required to have static strings passed to translation functions since the script can't guess what dynamic keys would result in at run-time.

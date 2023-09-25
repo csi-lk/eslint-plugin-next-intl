@@ -1,5 +1,5 @@
 export const configRecommended = {
-  plugins: ["eslint-plugin-next-intl"],
+  plugins: ["next-intl"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -7,7 +7,7 @@ export const configRecommended = {
     sourceType: "module",
   },
   rules: {
-    "eslint-plugin-next-intl/no-dynamic-translation-key": "error",
-    "eslint-plugin-next-intl/use-next-intl-link-over-next-link": "error",
+    "next-intl/no-dynamic-translation-key": "error",
+    "next-intl/use-next-intl-link-over-next-link": "error",
   },
 };

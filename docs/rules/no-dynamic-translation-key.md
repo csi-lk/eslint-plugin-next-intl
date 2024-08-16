@@ -25,6 +25,8 @@ Examples of **correct** code for this rule:
 ```ts
 t("key");
 
+useTranslations();
+
 useTranslations("key");
 
 t("Hi {{user}}!", { name: "User" });

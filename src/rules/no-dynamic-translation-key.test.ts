@@ -10,6 +10,7 @@ tester.run("no-dynamic-translation-key", noDynamicTranslationKey, {
     { code: 'useTranslations("key");' },
     { code: 't("Hi {{user}}!", { name: "User" });' },
     { code: "t(`errorMessage`);" },
+    { code: "useTranslations()" },
   ],
   invalid: [
     {

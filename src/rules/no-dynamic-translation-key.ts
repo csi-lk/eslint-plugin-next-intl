@@ -48,6 +48,10 @@ export const noDynamicTranslationKey: Rule.RuleModule = {
 
         const [firstArgument] = node.arguments;
 
+        if (firstArgument === undefined && calleeName === "useTranslations") {
+          return;
+        }
+
         switch (firstArgument.type) {
           case "Literal":
             return;

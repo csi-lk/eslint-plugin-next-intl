@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.3.0...v1.3.1) (2024-09-04)
+
+
+### Bug Fixes
+
+* allow empty argument for useTranslations ([f49ed93](https://github.com/csi-lk/eslint-plugin-next-intl/commit/f49ed938d3b813426abc6e9388abd990a60e9b46))
+
 ## [1.3.0](https://github.com/csi-lk/eslint-plugin-next-intl/compare/v1.2.1...v1.3.0) (2023-09-25)
 
 
